@@ -1,5 +1,5 @@
 FROM debian:jessie
-ARG DOCKERIZE_VERSION=v0.2.0
+ARG DOCKERIZE_VERSION=v0.3.0
 ARG POSTGRES_CLIENT_VERSION=9.4
 
 RUN echo deb http://debian.xtdv.net/debian jessie main > /etc/apt/sources.list && apt-get update
